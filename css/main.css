@@ -66,12 +66,7 @@ img{
    background-color: #F1D2AF;
    background-blend-mode: overlay;
 }
-.back-box{
-   position: absolute;
-   z-index: 10;
-   top: 30px;
-   left: 925px;
-}
+
 .header-inner{
    display: flex;
    align-items: center;
@@ -153,4 +148,15 @@ color: #FFFFFF;
    background-image: url(../images/background-2.svg);
    background-repeat: no-repeat;
    background-size: 710px 696px;
+}
+.mini-background{
+   position: relative;
+   top: -65px;
+   right: 72px;
+   z-index: 100;
+   width: 160px;
+   height: 160px;
+   background-image: url(../images/background-3.svg);
+   background-repeat: no-repeat;
+   background-size: 160px 160px;
 }
