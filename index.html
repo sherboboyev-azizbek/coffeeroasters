@@ -5,56 +5,116 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css/normalize.css">
-   <link rel="stylesheet" href="./css/main.min.css">
-   <!-- <link rel="stylesheet" href="./css/main.css"> -->
+   <link rel="stylesheet" href="./css/main.css">
    <title>Document</title>
 </head>
 <body>
-   <div class="box"> 
       <header class="site-header">
          <div class="container">
-            <div class="header-inner">
-               <a class="site-logo-link" href="./index.html">
-                  <img class="site-logo-img" src="./images/logo.svg"
+            <div class="site-header__header-inner">
+               <a class="site-header__header-inner__site-logo-link" href="./index.html">
+                  <img class="site-header__header-inner__site-logo-link__site-logo-img" src="./images/logo.svg"
                   width="235"
                   height="24"
                   alt="site logo "></a>
                   <nav class="nav">
-                     <ol class="nav-list">
-                        <li class="nav-item">
-                           <a class="nav-link" href="./index.html">HOME</a>
+                     <ol class="nav__list">
+                        <li class="nav__item">
+                           <a class="nav__link" href="./index.html">HOME</a>
                         </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">ABOUT US</a>
+                        <li class="nav__item">
+                           <a class="nav__link" href="#">ABOUT US</a>
                         </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Create your plan</a>
+                        <li class="nav__item">
+                           <a class="nav__link" href="#">Create your plan</a>
                         </ol>
                      </nav>
                   </div>
                </div>
             </header>
-            <main>
-               <section class="site-hero">
-                  <div class="container">
-                     <div class="hero-inner">
-                        <div class="hero-left">
-                           <h1 class="hero-title">
-                              Good coffee<br> 
-                              is made simply.</h1>
-                              <div class="hero-text-box">
-                                 <p class="hero-text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-                              </div>
-                              <a class="hero-link" href="#">Create your plan</a>
+
+            <section class="hero">
+               <div class="container">
+                  <div class="hero__hero-inner">
+                     <div class="hero__hero-inner__hero-left">
+                        <h1 class="hero__hero-inner__hero-left__hero-left__hero-title">
+                           Good coffee<br> 
+                           is made simply.</h1>
+                           <div class="hero__hero-inner__hero-left__hero-text-box">
+                              <p class="hero__hero-inner__hero-left__hero-text-box__hero-text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
                            </div>
-                           <div class="background-box">
-                              <div class="mini-background">
-                              </div>
+                           <a class="hero__hero-inner__hero-left__hero-link" href="#">Create your plan</a>
+                        </div>
+                        <div class="background-box">
+                           <div class="background-box__mini-background">
                            </div>
                         </div>
                      </div>
-                  </section>
-               </main>
-            </div>
+                  </div>
+            </section>
+
+            <section class="our-service">
+               <div class="container">
+                  <div class="our-service__servic-big-box">
+                     <div class="our-service__servic-big-box__our-servic-inner">
+                        <h2 class="our-service__servic-big-box__our-servic-inner__servic-title">our collection</h2>
+                        <ol class="servic-list">
+                              <!-- 1-gallery -->
+                           <li class="servic-list__items">
+                              <img class="servic-list__servic-img" src="./images/kopi-1.svg" 
+                              width="450"
+                              height="375"
+                              alt="There is a coffee bag Danche">
+                              <div class="servic-list__servic-right">
+                                 <h2 class="servic-list__servic-right__title">Danche</h2>
+                                 <div class="servic-text-box">
+                                    <p class="servic-text-box__servic-text">Ethiopian hand-harvested blend densely<br> packed with vibrant fruit notes.</p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- 2-gallery -->
+                           <li class="servic-list__items">
+                              <img class="servic-list__servic-img" src="./images/kopi-2.svg" 
+                              width="450"
+                              height="375"
+                              alt="There is a coffee bag Gran Espresso">
+                              <div class="servic-list__servic-right">
+                                 <h2 class="servic-list__servic-right__title">Gran Espresso</h2>
+                                 <div class="servic-text-box">
+                                    <p class="servic-text-box__servic-text">Light and flavorful blend with cocoa and <br> black pepper for an intense experience.</p>
+                                 </div>
+                              </div>
+                           </li>
+                             <!-- 3-gallery -->
+                           <li class="servic-list__items">
+                              <img class="servic-list__servic-img" src="./images/kopi-3.svg" 
+                              width="450"
+                              height="375"
+                              alt="There is a coffee bag Piccollo">
+                              <div class="servic-list__servic-right">
+                                 <h2 class="servic-list__servic-right__title">Piccollo</h2>
+                                 <div class="servic-text-box">
+                                    <p class="servic-text-box__servic-text">Mild and smooth blend featuring notes<br> of toasted almond and dried cherry.</p>
+                                 </div>
+                              </div>
+                           </li>
+                             <!-- 4-gallery -->
+                           <li class="servic-list__items">
+                              <img class="servic-list__servic-img" src="./images/kopi-4.svg" 
+                              width="450"
+                              height="375"
+                              alt="There is a coffee bag Planalto">
+                              <div class="servic-list__servic-right">
+                                 <h2 class="servic-list__servic-right__title">Planalto</h2>
+                                 <div class="servic-text-box">
+                                    <p class="servic-text-box__servic-text">Brazilian dark roast with rich and velvety<br> body, and hints of fruits and nuts.</p>
+                                 </div>
+                              </div>
+                           </li>
+                        </ol>
+                     </div>
+                  </div>  
+               </div>
+            </section>
          </body>
          </html>
